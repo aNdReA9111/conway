@@ -12,14 +12,3 @@ Il pattern Factory è stato utilizzato per creare istanze di `CellState` in base
 
 ### Polimorfismo
 Il polimorfismo è stato utilizzato per evitare l'uso di istruzioni `if` e costrutti ternari. Invece di controllare lo stato di una cella con `if`, viene utilizzato il polimorfismo per chiamare il metodo `nextState` dell'oggetto `CellState` appropriato.
-
-## Code Retreat
-
-### What, if anything, did you learn today?
-Oggi ho imparato come utilizzare il polimorfismo e i design pattern per evitare l'uso di istruzioni `if` e cicli `for` nel codice. Questo rende il codice più modulare e manutenibile.
-
-### What, if anything, surprised you today?
-Mi ha sorpreso vedere quanto il codice possa diventare più leggibile e organizzato utilizzando i design pattern appropriati. Anche se inizialmente può sembrare più complesso, alla fine risulta più facile da comprendere e modificare.
-
-### What, if anything, will you do differently in the future?
-In futuro, cercherò di applicare i design pattern fin dall'inizio dello sviluppo di un progetto. Questo mi aiuterà a scrivere codice più pulito e manutenibile, riducendo la necessità di refactoring successivi.
